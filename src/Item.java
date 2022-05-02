@@ -7,6 +7,6 @@ public class Item {
 
     //Constructor
     Item() {
-    
+
     }
 }
