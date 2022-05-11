@@ -2,11 +2,12 @@
 
 
 public class Item {
-    String name; // name of the item
-    int weight; //weight of the item
+  public  String name; // name of the item
+  public  int weight; //weight of the item
 
-    //Constructor
-    Item() {
-
+    @Override
+    public String toString() {
+        return "Item{" + "name=" + name + ", weight" + weight + '}';
     }
+
 }
